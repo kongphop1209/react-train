@@ -70,6 +70,7 @@
 .all-cate-butt span{
   margin-right: 10px;
   font-size: 12px;
+  width:80px;
 }
 
 
@@ -192,7 +193,6 @@
 .cate-under-cate {
   font-size: 13px;
   font-weight: 500;
-  
 }
 
 .cate-under-cate a{
