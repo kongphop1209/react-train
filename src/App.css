@@ -100,65 +100,69 @@
   margin-right: 10px;
 }
 
+@media (max-width: 1400px) {
+  .nav-bar-route {
+    display: none; 
+  }
+}
+
 /* ------------------------------------------------------------Wrapper-------------------------------------------------------------------------------- */
 
-.main-wrapper {
-  position: relative; /* Set the main-wrapper as the positioning context */
+.main-wrapper { 
   display: flex;
   justify-content: center;
   margin-top: 5px;
 }
 
 .wrapper-ads1 {
-  position: absolute;
-  top: 50%;
-  left: 50%; 
-  transform: translate(-50%, 0%);
-  margin-top: 40px;
+  margin-top: 2%;
   background-image: url(/src/assets/ads1.png); 
-  height: 551px;
-  width: 1204px;
-  background-size: cover;
+  height: 40vw;
+  width: 80rem;
+  background-size: 100% 100%;
   background-position: center;
   text-align: start;
 }
 
 .ads-recommend1 {
-  position: absolute;
-  top: 15%;
-  left: 15%; 
+  margin-top: 4cap;
+  margin-left: 14%;
 }
 .ads-recommend2 {
-  position: absolute;
-  top: 51%;
-  left: 15%; 
+  margin-top: 0.5%;
+  margin-left: 14%;
 }
 
 .ads-recommend1 h1 {
   color: white;
-  font-size: 50px;
+  font-size: 5vw;
   letter-spacing: 1px;
-  margin-bottom: 6px;
 }
 
 .ads-recommend2 div {
   color: white;
-  font-size: 14px;
+  font-size: 1.6vw;
   font-weight:unset;
-  margin-bottom: 7px;
+  margin-bottom: 0.5%;
   letter-spacing: 1px;
 }
 
+.shopping-now {
+  text-decoration: none;
+}
+
 .shopping-ads-butt {
-  position: absolute;
-  top: 68%;
-  left: 15%; 
+  font-size: 1.3vw;
+  text-align: center;
+  margin-top: 2%;
+  margin-left: 14%;
+  width: 20%;
   background-color: #9338CB;
   color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-left: 1%;
+  padding-right: 1%;
   border-radius: 10px;
 }
 
@@ -168,7 +172,7 @@
 
 /* ------------------------------------------------------------Categories-1-------------------------------------------------------------------------------- */
 
-.categories-main {
+/* .categories-main {
   display: grid;
   justify-content: center;
   flex-direction: column;
@@ -202,4 +206,4 @@
   padding-right: 30px;
   padding-left: 30px;
   border-radius: 10px;
-}
+} */

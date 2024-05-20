@@ -5,6 +5,7 @@ function Wrapper() {
         <div className="main-wrapper">
             <div className='wrapper-ads1'>
                 <div className="ads-recommend1">
+                    
                     <h1>More than</h1>
                     <h1>just a furniture. </h1>
                     <h1>It’s a lifestyle.</h1>
@@ -14,10 +15,8 @@ function Wrapper() {
                     <div>your whole life or you’re a Tour pro, your</div>
                     <div>swing is like a fingerprint.</div>
                 </div>
-                <a href="#shopping-now">
-                    <h4 className="shopping-ads-butt">
-                        Shopping Now
-                    </h4>
+                <a className="shopping-now" href="#shopping-now">
+                    <h4 className='shopping-ads-butt'><a>Shopping Now</a></h4>
                 </a>
 
             </div ></div>

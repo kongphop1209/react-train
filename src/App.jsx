@@ -11,10 +11,10 @@ function App() {
         <Wrapper></Wrapper>
       </div>
       <div className='sized-box-of-wrapper'></div>
-      <div className='categories-show'>
+      {/* <div className='categories-show'>
         <Categories></Categories>
       </div>
-      <div className='sized-box-of-cate'></div>
+      <div className='sized-box-of-cate'></div> */}
     </div>
   );
 }
