@@ -18,7 +18,6 @@ function Wrapper() {
                 <a className="shopping-now" href="#shopping-now">
                     <h4 className='shopping-ads-butt'><a>Shopping Now</a></h4>
                 </a>
-
             </div ></div>
     )
 }

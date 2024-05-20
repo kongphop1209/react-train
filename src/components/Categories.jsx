@@ -2,6 +2,7 @@
 function Categories() {
     return (
         <div className="categories-main">
+            <div className="cate-under-cate"><a>Categories</a></div>
             <div className='categories-position'>
                 <a href="#">Jewelry & Accessories</a>
                 <a href="#">Clothing & Shoes</a>
@@ -11,7 +12,6 @@ function Categories() {
                 <a href="#">Art & Collectibles</a>
                 <a href="#">Craft Supplies & Tools</a>
             </div>
-            <div className="cate-under-cate"><a>Categories</a></div>
         </div>
     )
 }
